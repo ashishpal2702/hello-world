@@ -1,22 +1,24 @@
-def AreaOfCirle(r):
+"""Module to calculate the area of a circle."""
+
+def area_of_circle(radius):
     """
-    Area of Circle
-    
-    Args: 
-    r (float) : Area of Circle
-  
+    Calculate the area of a circle.
+
+    Args:
+        radius (float): Radius of the circle.
+
     Returns:
-    float : Area of Circle
+        float: Area of the circle.
     """
     pi = 3.14
-    return pi*r*r
+    return pi * radius * radius
+
 
 def main():
-    ## Print Area of Circle
-    area = AreaOfCirle(10)
+    """Main function to print area of a circle with radius 10."""
+    area = area_of_circle(10)
     print(area)
 
 
 if __name__ == "__main__":
     main()
-  
