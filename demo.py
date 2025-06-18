@@ -1,5 +1,4 @@
-print("Hello World")
-def Area_of_cirle(r):
+def AreaOfCirle(r):
     """
     Area of Circle
     
@@ -14,7 +13,7 @@ def Area_of_cirle(r):
 
 def main():
     ## Print Area of Circle
-    area = area_of_cirle(10)
+    area = AreaOfCirle(10)
     print(area)
 
 
